@@ -1,0 +1,61 @@
+# ===================== #
+# Media files (recursive)
+# ===================== #
+*.mp3
+*.wav
+*.webm
+
+# ===================== #
+# Python virtual environments
+# ===================== #
+.venv
+venv/
+env/
+
+# ===================== #
+# Python
+# ===================== #
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===================== #
+# Environment / secrets
+# ===================== #
+.env
+.env.*
+*.pem
+*.key
+
+# ===================== #
+# IDE / Editor
+# ===================== #
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ===================== #
+# OS
+# ===================== #
+Thumbs.db
+desktop.ini
+
+# ===================== #
+# Logs / temp
+# ===================== #
+*.log
+tmp/
+temp/
+.cache/
